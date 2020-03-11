@@ -1,4 +1,4 @@
-package com.ht.bankclient.bankclient.service;
+package com.ht.bankclient.service;
 
 import java.util.List;
 import java.util.UUID;
@@ -7,10 +7,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
-import com.ht.bankclient.bankclient.DAO.ClientDAO;
-import com.ht.bankclient.bankclient.model.Account;
-import com.ht.bankclient.bankclient.model.Address;
-import com.ht.bankclient.bankclient.model.Client;
+import com.ht.bankclient.DAO.ClientDAO;
+import com.ht.bankclient.model.Account;
+import com.ht.bankclient.model.Address;
+import com.ht.bankclient.model.Client;
 
 @Service
 public class ClientService {

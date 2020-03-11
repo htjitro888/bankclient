@@ -1,4 +1,4 @@
-package com.ht.bankclient.bankclient.API;
+package com.ht.bankclient.API;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -15,10 +15,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.ht.bankclient.bankclient.model.Account;
-import com.ht.bankclient.bankclient.model.Address;
-import com.ht.bankclient.bankclient.model.Client;
-import com.ht.bankclient.bankclient.service.ClientService;
+import com.ht.bankclient.model.Account;
+import com.ht.bankclient.model.Address;
+import com.ht.bankclient.model.Client;
+import com.ht.bankclient.service.ClientService;
 
 @RequestMapping("v1/bank/client")
 @RestController

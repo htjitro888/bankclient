@@ -7,10 +7,10 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.util.Assert;
 
-import com.ht.bankclient.bankclient.DAO.InMemoryClientDAO;
-import com.ht.bankclient.bankclient.model.Client;
-import com.ht.bankclient.bankclient.service.ClientService;
+import com.ht.bankclient.DAO.InMemoryClientDAO;
 import com.ht.bankclient.common.Generate;
+import com.ht.bankclient.model.Client;
+import com.ht.bankclient.service.ClientService;
 
 class ClientServiceTest {
 	

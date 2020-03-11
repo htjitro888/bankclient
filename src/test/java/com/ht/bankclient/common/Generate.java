@@ -5,11 +5,11 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
 
-import com.ht.bankclient.bankclient.model.Account;
-import com.ht.bankclient.bankclient.model.Address;
-import com.ht.bankclient.bankclient.model.Bank;
-import com.ht.bankclient.bankclient.model.Client;
-import com.ht.bankclient.bankclient.model.Person;
+import com.ht.bankclient.model.Account;
+import com.ht.bankclient.model.Address;
+import com.ht.bankclient.model.Bank;
+import com.ht.bankclient.model.Client;
+import com.ht.bankclient.model.Person;
 
 public class Generate {
 

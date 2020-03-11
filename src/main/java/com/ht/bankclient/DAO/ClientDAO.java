@@ -1,11 +1,11 @@
-package com.ht.bankclient.bankclient.DAO;
+package com.ht.bankclient.DAO;
 
 import java.util.List;
 import java.util.UUID;
 
-import com.ht.bankclient.bankclient.model.Account;
-import com.ht.bankclient.bankclient.model.Address;
-import com.ht.bankclient.bankclient.model.Client;
+import com.ht.bankclient.model.Account;
+import com.ht.bankclient.model.Address;
+import com.ht.bankclient.model.Client;
 
 public interface ClientDAO {
 	List<Client> getClients();

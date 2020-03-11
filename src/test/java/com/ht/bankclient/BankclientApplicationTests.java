@@ -1,4 +1,4 @@
-package com.ht.bankclient.bankclient;
+package com.ht.bankclient;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
